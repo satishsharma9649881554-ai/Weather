@@ -1,0 +1,55 @@
+
+body {
+    background-image: url(weatherImage.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h1 {
+    color: white;
+}
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%,-25%);
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+    
+
+   
+}
+
+#container:hover {
+    box-shadow: 4px 4px 4px 4px orange
+                
+}
+
+
+
+button {
+    margin-top: 40px;
+}
+
+
+
+
+@media(max-width:576px){
+    #container {
+        height:150px;
+        width: 350px;
+    }
+}
+
+
+
