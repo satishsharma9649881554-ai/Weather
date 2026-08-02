@@ -109,9 +109,9 @@ async function removediv(){
          let temppures = data.list[1].main.temp;
     temp.innerHTML = `<p>Tempture : ${temppures}</p>`
    
-    temp.style.fontSize = "30px";
+    temp.style.fontSize = "20px";
     temp.style.position = 'absolute';
-     temp.style.left = '140px';
+     temp.style.left = '100px';
     temp.style.top = '205px';
    
 
@@ -147,9 +147,9 @@ async function removediv(){
   let hum = data.list[1].main.humidity;
     console.log(hum);
     humiditys.innerText = `Humidity: ${hum}% `; 
-    humiditys.style.fontSize = "30px";
+    humiditys.style.fontSize = "20px";
     humiditys.style.position = 'absolute';
-     humiditys.style.left = '140px';
+     humiditys.style.left = '100px';
     humiditys.style.top = '200px';
    
     document.body.appendChild(humiditys);
@@ -161,9 +161,9 @@ async function removediv(){
         let weatherCondition = data.list[0].weather[0].main;
     mainWeather.innerText = `Weather: ${weatherCondition}`
     
-    mainWeather.style.fontSize = "30px";
+    mainWeather.style.fontSize = "20px";
     mainWeather.style.position = 'absolute';
-     mainWeather.style.left = '140px';
+     mainWeather.style.left = '100px';
     mainWeather.style.top = '280px';
   
     mainWeather.style.color = "orange";
