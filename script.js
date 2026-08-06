@@ -137,7 +137,7 @@ let data = await url.json();
        rainProblity.innerText = `chance of rain
        ${pop*100}%`;
        rainProblity.style.fontSize = "20px";
-       rainProblity.style.margin = "20px";
+       rainProblity.style.marginTop = "20px";
      newdiv.appendChild(rainProblity)
      
 
